@@ -23,7 +23,7 @@ let try_reset = async () => {
       sender: wallet.address,
       contract_address: contractAddress,
       msg: {
-        reset: { count: 1 },
+        reset: { count: 0 },
       },
       code_hash: codeHash,
     },
